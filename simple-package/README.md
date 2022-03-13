@@ -1,9 +1,11 @@
 ---
-package_name: "simple-package"
-package_title: "Simple Package"
-package_desc: "A simple package to say Hello World."
+package_name: "espanso-ks"
+package_title: "Kundenservice"
+package_desc: "Alles was du brauchst um im Kundenservice durchzustarten!"
 package_version: "0.1.0"
-package_author: "Federico Terzi"
-package_repo: "https://github.com/federico-terzi/espanso-package-example"
+package_author: "Timo Bühlmann"
+package_repo: "https://github.com/Meisterwerk-GmbH/espanso-ks"
 ---
-A simple package to say "Hello World"
+## WICHTIG: Hinweis
+Für dieses package musst du deinen Namen im default.yml hinterlegen.
+Den Pfad zum default.yml findest du mit folgendem Command: `espanso path`
