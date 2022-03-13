@@ -1,6 +1,6 @@
 matches:
-  - trigger: öok
-    replace: >
+  - trigger: ":ok"
+    form: |
       Guten Tag [[Name]]
       
       Gib mir doch bitte eine kurze Rückbestätigung, dass Du mit der Reservation und den Bedingungen einverstanden bist.
@@ -8,14 +8,14 @@ matches:
       Bei Fragen stehe ich gerne zur Verfügung.
       
       Freundliche Grüsse
-      {{user-firstname}}
-  - trigger: öok
-    replace: >
-      Guten Tag [[Name]]
+      {{firstname}}
+  - trigger: ":dank"
+    form: |
+      Guten Tag [[Name]]  
       
-      Super, besten Dank für die Bestätigung.
+      Super, besten Dank für die Bestätigung.  
       
-      Bei Fragen stehe ich gerne zur Verfügung.
+      Bei Fragen stehe ich gerne zur Verfügung.  
       
       Freundliche Grüsse
-      {{user-firstname}}
+      {{firstname}}
