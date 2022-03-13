@@ -1,5 +1,10 @@
+imports:
+  - "sub/_tawk.yml"
+  - "sub/_generator.yml"
+
 matches:
-  - trigger: "öok"
+
+  - trigger: ".ok"
     form: |
       Guten Tag [[Name]]
       
@@ -9,7 +14,8 @@ matches:
       
       Freundliche Grüsse
       {{firstname}}
-  - trigger: "ödank"
+
+  - trigger: ".dank"
     form: |
       Guten Tag [[Name]]  
       
@@ -20,7 +26,7 @@ matches:
       Freundliche Grüsse
       {{firstname}}
 
-  - trigger: "ödrafol"
+  - trigger: ".drafol"
     form: |
       Guten Tag [[Name]]  
       
@@ -28,3 +34,6 @@ matches:
       
       Freundliche Grüsse
       {{firstname}}
+
+  - trigger: ".sumup"
+    replace: "Im bexio schon abgeglichen - archivieren"
