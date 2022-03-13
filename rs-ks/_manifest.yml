@@ -1,5 +1,5 @@
-name: "ks"
-title: "Kundenservice"
+name: "rs-ks"
+title: "rentshop Kundenservice"
 description: "Alles was du brauchst um im Kundenservice durchzustarten!"
-version: "0.1.3"
+version: "0.1.4"
 author: "Timo Bühlmann"

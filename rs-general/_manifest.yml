@@ -1,5 +1,5 @@
-name: "general"
-title: "Allgemein"
+name: "rs-general"
+title: "rentshop Allgemein"
 description: "Allgemein Snippets für alle Mitarbeiter"
-version: "0.1.0"
+version: "0.1.1"
 author: "Timo Bühlmann"
