@@ -1,0 +1,16 @@
+# Simple package
+
+name: espanso-ks
+parent: default
+
+matches:
+  - trigger: "öok"
+    replace: |
+      Guten Tag {{Name}}
+
+      Gib mir doch bitte eine kurze Rückbestätigung, dass Du mit der Reservation und den Bedingungen einverstanden bist.
+
+      Bei Fragen stehe ich gerne zur Verfügung.
+
+      Freundliche Grüsse
+      {{user-firstname}}
