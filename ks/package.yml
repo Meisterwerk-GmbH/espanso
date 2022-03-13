@@ -1,5 +1,5 @@
 matches:
-  - trigger: ":ok"
+  - trigger: "öok"
     form: |
       Guten Tag [[Name]]
       
@@ -9,13 +9,22 @@ matches:
       
       Freundliche Grüsse
       {{firstname}}
-  - trigger: ":dank"
+  - trigger: "ödank"
     form: |
       Guten Tag [[Name]]  
       
       Super, besten Dank für die Bestätigung.  
       
       Bei Fragen stehe ich gerne zur Verfügung.  
+      
+      Freundliche Grüsse
+      {{firstname}}
+
+  - trigger: "ödrafol"
+    form: |
+      Guten Tag [[Name]]  
+      
+      Blafdlafjsd
       
       Freundliche Grüsse
       {{firstname}}
