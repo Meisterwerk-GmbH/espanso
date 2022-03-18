@@ -1,5 +1,5 @@
 matches:
-  - trigger: ".ts"
+  - trigger: ",ts"
     replace: |
       Am besten bestellst du es grad über den Shop, dann haben wir direkt alle benötigten Angaben.
       (das ist für dich selbstverstädnlich noch unverbindlich)"

@@ -1,4 +1,4 @@
 matches:
 
-  - trigger: ".rs"
+  - trigger: ",rs"
     replace: "rentshop®"

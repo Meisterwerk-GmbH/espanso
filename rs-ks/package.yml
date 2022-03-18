@@ -4,7 +4,7 @@ imports:
 
 matches:
 
-  - trigger: ".ok"
+  - trigger: ",ok"
     form: |
       Guten Tag [[Name]]
       
@@ -15,7 +15,7 @@ matches:
       Freundliche Grüsse
       {{firstname}}
 
-  - trigger: ".dank"
+  - trigger: ",dank"
     form: |
       Guten Tag [[Name]]  
       
@@ -26,7 +26,7 @@ matches:
       Freundliche Grüsse
       {{firstname}}
 
-  - trigger: ".drafol"
+  - trigger: ",drafol"
     form: |
       Guten Tag [[Name]]  
       
@@ -35,5 +35,5 @@ matches:
       Freundliche Grüsse
       {{firstname}}
 
-  - trigger: ".sumup"
+  - trigger: ",sumup"
     replace: "Im bexio schon abgeglichen - archivieren"

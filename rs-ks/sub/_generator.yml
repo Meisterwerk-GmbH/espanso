@@ -1,6 +1,6 @@
 matches:
 
-  - trigger: ".gt"
+  - trigger: ",gt"
     replace: |
       Für 30.- CHF betanken wir den Generator im Vorfeld (15L).
       Dies kann auch problemlos nach der Abholung selber an der Tankstelle durchgeführt werden.
