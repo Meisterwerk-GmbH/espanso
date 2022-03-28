@@ -36,4 +36,4 @@ matches:
       {{firstname}}
 
   - trigger: ",sumup"
-    replace: "Im bexio schon abgeglichen - archivieren"
+    replace: "Mit Karte bezahlt"
