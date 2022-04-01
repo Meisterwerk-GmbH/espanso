@@ -5,7 +5,7 @@ imports:
 matches:
 
  - trigger: ",mfg"
-    form: |   
+   form: |   
       Freundliche Grüsse
       {{firstname}}
 
