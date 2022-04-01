@@ -4,12 +4,12 @@ imports:
 
 matches:
   - trigger: ",mfg"
-   form: |   
+    form: |   
       Freundliche Grüsse
       {{firstname}}
       
   - trigger: ",ok"
-   form: |
+    form: |
       Guten Tag [[Name]]
       
       Gib mir doch bitte eine kurze Rückbestätigung, dass Du mit der Reservation und den Bedingungen einverstanden bist.
@@ -19,7 +19,7 @@ matches:
       Freundliche Grüsse
       {{firstname}}
   - trigger: ",dank"
-   form: |
+    form: |
       Guten Tag [[Name]]  
       
       Super, besten Dank für die Bestätigung.  
@@ -30,7 +30,7 @@ matches:
       {{firstname}}
 
   - trigger: ",drafol"
-   form: |
+    form: |
       Guten Tag [[Name]]  
       
       Ich wollte kurz nachfragen, ob du die Offerte schon anschauen konntest. 
