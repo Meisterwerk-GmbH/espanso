@@ -8,9 +8,9 @@ matches:
    form: |   
       Freundliche Grüsse
       {{firstname}}
-
-  - trigger: ",ok"
-    form: |
+      
+ - trigger: ",ok"
+   form: |
       Guten Tag [[Name]]
       
       Gib mir doch bitte eine kurze Rückbestätigung, dass Du mit der Reservation und den Bedingungen einverstanden bist.
@@ -19,9 +19,8 @@ matches:
       
       Freundliche Grüsse
       {{firstname}}
-
-  - trigger: ",dank"
-    form: |
+ - trigger: ",dank"
+   form: |
       Guten Tag [[Name]]  
       
       Super, besten Dank für die Bestätigung.  
@@ -31,8 +30,8 @@ matches:
       Freundliche Grüsse
       {{firstname}}
 
-  - trigger: ",drafol"
-    form: |
+ - trigger: ",drafol"
+   form: |
       Guten Tag [[Name]]  
       
       Ich wollte kurz nachfragen, ob du die Offerte schon anschauen konntest. 
