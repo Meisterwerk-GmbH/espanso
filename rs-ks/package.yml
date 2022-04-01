@@ -3,13 +3,12 @@ imports:
   - "sub/_generator.yml"
 
 matches:
-
- - trigger: ",mfg"
+  - trigger: ",mfg"
    form: |   
       Freundliche Grüsse
       {{firstname}}
       
- - trigger: ",ok"
+  - trigger: ",ok"
    form: |
       Guten Tag [[Name]]
       
@@ -19,7 +18,7 @@ matches:
       
       Freundliche Grüsse
       {{firstname}}
- - trigger: ",dank"
+  - trigger: ",dank"
    form: |
       Guten Tag [[Name]]  
       
@@ -30,7 +29,7 @@ matches:
       Freundliche Grüsse
       {{firstname}}
 
- - trigger: ",drafol"
+  - trigger: ",drafol"
    form: |
       Guten Tag [[Name]]  
       
