@@ -3,7 +3,7 @@ imports:
   - "sub/_generator.yml"
 
 matches:
-  - trigger: ",mfg"
+  - trigger: ",fg"
     replace: |
       Freundliche Grüsse
       {{firstname}}
@@ -105,7 +105,7 @@ matches:
     replace: "Anfrage per Telefon"
     
   - trigger: ",track"
-    replace: "http://www.post.ch/swisspost-tracking?formattedParcelCodes=99.60.096403.0000[[Nummer]]&p_language=de"   
+    form: "http://www.post.ch/swisspost-tracking?formattedParcelCodes=99.60.096403.0000[[Nummer]]&p_language=de"   
     
   - trigger: ",fehlt"
     replace: "Für die Bestätigung der Offerte, benötige ich noch deine Adresse und die Natelnummer."
