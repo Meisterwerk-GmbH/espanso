@@ -1,0 +1,12 @@
+matches:
+  - trigger: ",stb"
+    form: |
+      Guten Tag [[Name]]
+
+      Wie versprochen lasse ich dir im Anhang noch die Bedingungen für den Struggler-Bericht zukommen.
+      Der bericht muss uns dann innerhalb von einer Woche (nach Rückgabe) via Mail zugestellt werden.
+
+      Gib mir doch eine kurze Rückmeldung, wenn das für dich passt.
+
+      Freundliche Grüsse
+      {{firstname}}

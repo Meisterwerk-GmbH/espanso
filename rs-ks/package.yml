@@ -1,6 +1,7 @@
 imports:
   - "sub/_tawk.yml"
   - "sub/_generator.yml"
+  - "sub/_struggler.yml"
 
 matches:
   - trigger: ",fg"
