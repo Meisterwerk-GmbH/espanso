@@ -99,6 +99,9 @@ matches:
   - trigger: ",sumup"
     replace: "Mit Karte bezahlt"
     
+  - trigger: ",twint"
+    replace: "Mit Twint bezahlt"        
+    
   - trigger: ",depot"
     replace: "Bitte beachte, dass während der Miete ein Depot hinterlegt werden muss."
     
