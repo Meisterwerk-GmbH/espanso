@@ -96,7 +96,10 @@ matches:
       
       Besten Dank für die Rückmeldung.
        
-  - trigger: ",sumup"
+  - trigger: ",bar"
+    replace: "Bar bezahlt"
+    
+  - trigger: ",karte"
     replace: "Mit Karte bezahlt"
     
   - trigger: ",twint"
