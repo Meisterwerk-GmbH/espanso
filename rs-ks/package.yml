@@ -137,4 +137,14 @@ matches:
     
   - trigger: ",lagbe"
     replace: "Das Lager Bern hat jeweils am Mittwoch von 16:30-19:00 Uhr geöffnet. Falls dir die Zeiten nicht passen, haben wir in Bern auch ein Pickup Lager (ohne Betreuung), bei welchem du jederzeit dein Equipment abholen und returnieren kannst. Bitte lass mich es wissen, falls du lieber auf Pickup wechseln möchtest."
-    
+  
+  - trigger: ",urg"
+    form: |
+      Bonjour [[Name]] 
+      Merci de nous renvoyer le contrat avant 14h00 afin que nous puissions envoyer la marchandise à temps.
+      
+      Cordialement 
+      {{firstname}}
+
+  
+  
