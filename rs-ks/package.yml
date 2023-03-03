@@ -13,6 +13,7 @@ matches:
     form: |
       Guten Tag [[Name]]
       
+      Ich wollte kurz nachfragen, ob du die Bestätigung schon anschauen konntest. 
       Gib mir doch bitte eine kurze Rückbestätigung, dass Du mit der Reservation und den Bedingungen einverstanden bist.
       
       Bei Fragen stehe ich gerne zur Verfügung.
@@ -29,6 +30,16 @@ matches:
       
       Freundliche Grüsse
       {{firstname}}
+      
+    - trigger: ",vert"
+    form: |
+      Guten Tag [[Name]]  
+      
+      Ich wollte kurz nachfragen, ob du den Mietvertrag (E-Mail von e-Signature) schon anschauen konntest. 
+      Falls es diesbezüglich Unklarheiten oder Änderungswünsche gibt, helfe ich gerne weiter.
+      
+      Freundliche Grüsse
+      {{firstname}}
 
   - trigger: ",drafol"
     form: |
@@ -40,12 +51,12 @@ matches:
       Freundliche Grüsse
       {{firstname}}
       
-  - trigger: ",drafol2"
+  - trigger: ",draf2"
     form: |
       Guten Tag [[Name]]  
       
       Ich wollte mich erkundigen, ob noch Interesse an unserem Angebot besteht? 
-      Anderenfalls wird die Offerte demnächst ihre Gültigkeit verlieren. 
+      Andernfalls wird die Offerte demnächst ihre Gültigkeit verlieren. 
       Falls es diesbezüglich Unklarheiten oder Änderungswünschen gibt, helfe ich gerne weiter.
       
       Freundliche Grüsse
@@ -82,13 +93,7 @@ matches:
     form: |
       Guten Tag [[Name]]  
       
-      Besten Dank für die Anfrage.
-      
-  - trigger: ",chat"
-    form: |
-      Guten Tag [[Name]]  
-      
-      Besten Dank für deine Anfrage im Chat.
+      Besten Dank für die Anfrage.      
       
   - trigger: ",rück"
     form: |
@@ -98,6 +103,9 @@ matches:
        
   - trigger: ",bar"
     replace: "Bar bezahlt"
+    
+  - trigger: ",handy"
+    replace: "Damit ich den Mietvertrag zustellen kann, benötige ich noch eine Handynummer. Der Mietvertrag wird per SMS Code unterschrieben."
     
   - trigger: ",karte"
     replace: "Mit Karte bezahlt"
@@ -136,7 +144,7 @@ matches:
     replace: "Das Lager Basel hat jeweils am Mittwoch von 18:00 - 19:30 Uhr geöffnet."  
     
   - trigger: ",lagbe"
-    replace: "Das Lager Bern hat jeweils am Mittwoch von 16:30-19:00 Uhr geöffnet. Falls dir die Zeiten nicht passen, haben wir in Bern auch ein Pickup Lager (ohne Betreuung), bei welchem du jederzeit dein Equipment abholen und returnieren kannst. Bitte lass mich es wissen, falls du lieber auf Pickup wechseln möchtest."
+    replace: "Das Lager Bern hat jeweils am Donnerstag von 17:00-19:00 Uhr geöffnet. Falls dir die Zeiten nicht passen, haben wir in Bern auch ein Pickup Lager (ohne Betreuung), bei welchem du jederzeit dein Equipment abholen und returnieren kannst. Bitte lass mich es wissen, falls du lieber auf Pickup wechseln möchtest."
   
   - trigger: ",urg"
     form: |
