@@ -99,7 +99,7 @@ matches:
     replace: "Bar bezahlt"
     
   - trigger: ",anf"
-    replace: "Besten Dank für die Anfrage."
+    replace: "Guten Tag  Besten Dank für die Anfrage."
     
   - trigger: ",handy"
     replace: "Damit ich den Mietvertrag zustellen kann, benötige ich noch eine Handynummer. Der Mietvertrag wird per SMS Code unterschrieben."
