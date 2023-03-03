@@ -87,13 +87,7 @@ matches:
       Bei Fragen stehe ich gerne zur Verfügung.
       
       Freundliche Grüsse
-      {{firstname}}
-      
-  - trigger: ",anfra"
-    form: |
-      Guten Tag [[Name]]  
-      
-      Besten Dank für die Anfrage.      
+      {{firstname}} 
       
   - trigger: ",rück"
     form: |
@@ -103,6 +97,9 @@ matches:
        
   - trigger: ",bar"
     replace: "Bar bezahlt"
+    
+  - trigger: ",anf"
+    replace: "Besten Dank für die Anfrage."
     
   - trigger: ",handy"
     replace: "Damit ich den Mietvertrag zustellen kann, benötige ich noch eine Handynummer. Der Mietvertrag wird per SMS Code unterschrieben."
