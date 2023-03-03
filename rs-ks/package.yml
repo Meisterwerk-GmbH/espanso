@@ -89,7 +89,7 @@ matches:
       Freundliche Grüsse
       {{firstname}}
       
-  - trigger: ",anf"
+  - trigger: ",anfra"
     form: |
       Guten Tag [[Name]]  
       
