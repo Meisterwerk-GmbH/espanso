@@ -157,13 +157,13 @@ matches:
       
       Nous vous remercions pour votre demande.
       
-   - trigger: ",drafolfr"
-     form: |
-       Bonjour [[Name]]  
+  - trigger: ",drafolfr"
+    form: |
+      Bonjour [[Name]]  
       
-       Je voulais savoir si vous aviez déjà pu consulter l'offre. 
-       S'il y a des incertitudes ou des demandes de modification, je serai heureux de vous aider.
+      Je voulais savoir si vous aviez déjà pu consulter l'offre. 
+      S'il y a des incertitudes ou des demandes de modification, je serai heureux de vous aider.
       
-       Cordialement
-       {{firstname}}
+      Cordialement
+      {{firstname}}
       
