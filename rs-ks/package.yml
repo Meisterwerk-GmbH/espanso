@@ -191,7 +191,7 @@ matches:
    
    
    - trigger: ",port"
-     - form: |
+     form: |
       Bonjour [[Name]]  
       
       Pour pouvoir envoyer le contrat de location, j'ai besoin d'un numéro de téléphone portable suisse. 
