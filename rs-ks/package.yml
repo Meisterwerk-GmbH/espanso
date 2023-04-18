@@ -157,7 +157,7 @@ matches:
       
       Nous vous remercions pour votre demande.
       
-  - trigger: ",drafolfr"
+  - trigger: ",offr"
     form: |
       Bonjour [[Name]]  
       
@@ -167,3 +167,15 @@ matches:
       Cordialement
       {{firstname}}
       
+  - trigger: ",int"
+    form: |
+      Bonjour [[Name]]  
+      
+      Je voulais savoir s'il y avait encore de l'intérêt pour notre offre ? 
+      Dans le cas contraire, l'offre perdra prochainement sa validité. 
+      S'il y a des incertitudes ou des souhaits de modification à ce sujet, je vous aiderai volontiers.
+      
+      Cordialement
+      {{firstname}}
+      
+        
