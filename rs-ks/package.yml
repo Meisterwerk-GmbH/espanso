@@ -200,7 +200,7 @@ matches:
       Cordialement
       {{firstname}}
       
-   - trigger: ",cord"
+trigger: ",cord"
      form: |
       Cordialement
       {{firstname}}
