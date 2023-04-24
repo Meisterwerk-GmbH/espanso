@@ -201,6 +201,7 @@ matches:
       {{firstname}}
       
 trigger: ",cord"
-     form: |
-      Cordialement
-      {{firstname}}
+form: |
+ Cordialement
+ {{firstname}}
+
