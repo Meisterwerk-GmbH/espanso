@@ -199,3 +199,8 @@ matches:
       
       Cordialement
       {{firstname}}
+      
+   - trigger: ",cord"
+     form: |
+      Cordialement
+      {{firstname}}
