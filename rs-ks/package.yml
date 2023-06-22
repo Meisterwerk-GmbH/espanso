@@ -148,7 +148,7 @@ matches:
       Bonjour [[Name]] 
       Merci de nous renvoyer le contrat avant 14h00 afin que nous puissions envoyer la marchandise à temps.
       
-      Cordialement 
+      Meilleures salutations 
       {{firstname}}
   
   - trigger: ",dem"
@@ -164,7 +164,7 @@ matches:
       Je voulais savoir si vous aviez déjà pu consulter l'offre. 
       S'il y a des incertitudes ou des demandes de modification, je serai heureux de vous aider.
       
-      Cordialement
+      Meilleures salutations
       {{firstname}}
       
   - trigger: ",int"
@@ -175,7 +175,7 @@ matches:
       Dans le cas contraire, l'offre perdra prochainement sa validité. 
       S'il y a des incertitudes ou des souhaits de modification à ce sujet, je vous aiderai volontiers.
       
-      Cordialement
+      Meilleures salutations
       {{firstname}}
       
         
@@ -186,7 +186,7 @@ matches:
       Je voulais savoir si vous aviez déjà pu consulter le contrat de location (e-mail d'e-Signature). 
       S'il y a des imprécisions ou des demandes de modification à ce sujet, je serai ravi de vous aider.
       
-      Cordialement
+      Meilleures salutations
       {{firstname}}
    
    
@@ -197,11 +197,11 @@ matches:
       Pour pouvoir envoyer le contrat de location, j'ai besoin d'un numéro de téléphone portable suisse. 
       Le contrat de location sera signé par code SMS.
       
-      Cordialement
+      Meilleures salutations
       {{firstname}}
       
 trigger: ",cord"
 form: |
- Cordialement
+ Meilleures salutations
  {{firstname}}
 
