@@ -99,7 +99,7 @@ matches:
     replace: "Bar bezahlt"
     
   - trigger: ",anf"
-    replace: "Guten Tag  Besten Dank für die Anfrage."
+    replace: "Guten Tag Besten Dank für die Anfrage."
     
   - trigger: ",handy"
     replace: "Damit ich den Mietvertrag zustellen kann, benötige ich noch eine Handynummer. Der Mietvertrag wird per SMS Code unterschrieben."
@@ -199,9 +199,24 @@ matches:
       
       Meilleures salutations
       {{firstname}}
+  
+  - trigger: ",sal"
+    form: |
+     Meilleures salutations
+     {{firstname}}
+
+  - trigger: ",franul"
+    form: |
+      Bonjour [[Name]]
       
-trigger: ",cord"
-form: |
- Meilleures salutations
- {{firstname}}
+      Nous vous remercions pour l'information concernant l'annulation. Nous espérons pouvoir vous aider une autre fois.
+      Je suis à votre disposition pour toute question via info@rentshop.ch.
+      
+      Meilleures salutations
+      {{firstname}}
+      
+     
+      
+
+ 
 
