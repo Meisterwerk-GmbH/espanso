@@ -215,7 +215,17 @@ matches:
       Meilleures salutations
       {{firstname}}
       
-     
+   - trigger: ",kur"
+     form: |
+       Guten Tag [[Name]]
+       
+       In dieser E-Mail findest du den Link zum Kurier Formular. Bitte fülle es aus und sende es uns zurück.
+       Kurier Formular: [[hier]]
+       
+       Bei Fragen oder Änderungswünschen stehe ich gerne zur Verfügung.
+       
+       Freundliche Grüsse
+       Fatou
       
 
  
