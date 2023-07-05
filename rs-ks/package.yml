@@ -180,7 +180,7 @@ matches:
       
         
   - trigger: ",cont"
-    form: | 
+    form: |
       Bonjour [[Name]]  
       
       Je voulais savoir si vous aviez déjà pu consulter le contrat de location (e-mail d'e-Signature). 
@@ -220,12 +220,12 @@ matches:
       Guten Tag [[Name]]
       
       In dieser E-Mail findest du den Link zum Kurier Formular. Bitte fülle es aus und sende es uns zurück.
-      Kurier Formular: [[hier]]
+      Kurier Formular: https://forms.gle/MxVA6MxyYRwKpfy28
       
       Bei Fragen oder Änderungswünschen stehe ich gerne zur Verfügung.
       
       Freundliche Grüsse
-      Fatou
+      {{firstname}}
       
 
  
