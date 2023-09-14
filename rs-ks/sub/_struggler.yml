@@ -3,10 +3,12 @@ matches:
     form: |
       Guten Tag [[Name]]
 
-      Wie versprochen lasse ich dir im Anhang noch die Bedingungen für den Struggler-Bericht zukommen.
+      Wie versprochen lasse ich Dir im Anhang noch die Bedingungen für den Struggler-Bericht zukommen.
       Der Bericht muss uns dann innerhalb von einer Woche (nach Rückgabe) via Mail zugestellt werden.
 
-      Gib mir doch eine kurze Rückmeldung, wenn das für dich passt.
+      Gib mir doch eine kurze Rückmeldung, wenn das für Dich passt.  
+
+      WICHTIG: Bitte vergiss nicht ein paar Fotos für den Bericht zu machen (falls Du mit den Bedingungen einverstanden bist).
 
       Freundliche Grüsse
       {{firstname}}
