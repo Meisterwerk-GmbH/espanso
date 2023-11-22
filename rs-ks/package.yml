@@ -131,7 +131,7 @@ matches:
   - trigger: ",rech"
     replace: "Zahlt auf Rechnung"
     
-  - trigger: ",frag"
+  - trigger: ",2frag"
     replace: "Bei Fragen oder Änderungswünschen stehe ich gerne zur Verfügung."    
     
   - trigger: ",lagzh"
