@@ -227,6 +227,15 @@ matches:
       Freundliche Grüsse
       {{firstname}}
       
-
+  - trigger: ",audio"
+    form: |
+      Guten Tag [[Name]]
+      
+      Herzlichen Dank für Deine Anfrage. 
+      Wir haben für die verschiedenen Audioanschlüsse eine separate Anleitung vorbereitet, die du unter folgendem Link abrufen kannst: [https://manuals.rentshop.ch/audio-anschluesse/].
+      Falls weitere Fragen auftauchen, stehe ich gerne zur Verfügung.
+      
+      Freundliche Grüsse
+      {{firstname}}
  
 
