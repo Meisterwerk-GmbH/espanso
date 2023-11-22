@@ -201,7 +201,7 @@ matches:
       {{firstname}}
   
   - trigger: ",sal"
-    form: |
+    replace: |
      Meilleures salutations
      {{firstname}}
 
