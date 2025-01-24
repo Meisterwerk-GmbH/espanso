@@ -37,6 +37,20 @@ matches:
       Guten Tag [[Name]]  
       
       Ich wollte kurz nachfragen, ob du den Mietvertrag (E-Mail von e-Signature) schon anschauen konntest. 
+      
+      Falls es diesbezüglich Unklarheiten oder Änderungswünsche gibt, helfe ich gerne weiter.
+      
+      Freundliche Grüsse
+      {{firstname}}
+
+  - trigger: ",dring"
+    form: |
+      Guten Tag [[Name]]  
+
+      Besten Dank für die Anfrage.
+      Ich habe soebenen den Mietvertrag zugestellt (siehe E-Mail von e-Signature).
+      Damit die Buchung Heute verschickt werden kann, muss der Vertrag bis um 14.00 Uhr unterschrieben werden.
+      
       Falls es diesbezüglich Unklarheiten oder Änderungswünsche gibt, helfe ich gerne weiter.
       
       Freundliche Grüsse
@@ -47,6 +61,7 @@ matches:
       Guten Tag [[Name]]  
       
       Ich wollte kurz nachfragen, ob du die Offerte schon anschauen konntest. 
+      
       Falls es diesbezüglich Unklarheiten oder Änderungswünsche gibt, helfe ich gerne weiter.
       
       Freundliche Grüsse
@@ -58,6 +73,7 @@ matches:
       
       Ich wollte mich erkundigen, ob noch Interesse an unserem Angebot besteht? 
       Andernfalls wird die Offerte demnächst ihre Gültigkeit verlieren. 
+      
       Falls es diesbezüglich Unklarheiten oder Änderungswünschen gibt, helfe ich gerne weiter.
       
       Freundliche Grüsse
@@ -77,8 +93,18 @@ matches:
     form: |
       Guten Tag [[Name]]  
       
-      Da wir keine Rückmeldung erhalten haben, haben wir den Auftrag annulliert.
+      Da wir keine Rückmeldung erhalten haben, haben wir die Anfrage annulliert.
       Wir hoffen ein anders Mal behilflich sein zu können.
+      
+      Freundliche Grüsse
+      {{firstname}}
+
+  - trigger: ",redep"
+    form: |
+      Guten Tag [[Name]]  
+      
+      Deine Buchung ist zurückgekommen - besten Dank.
+      Damit wir das Depot zurückerstatten können, benötige ich noch Deine IBAN.
       
       Freundliche Grüsse
       {{firstname}}
@@ -115,9 +141,6 @@ matches:
     
   - trigger: ",fehlt"
     replace: "Für die Bestätigung der Offerte, benötige ich noch deine Adresse und die Natelnummer."
-    
-  - trigger: ",dring"
-    replace: "Bitte sende uns den Vertrag bis 14:00 Uhr zurück, damit wir die Ware rechtzeitig verschicken können."
     
   - trigger: ",ofer"
     replace: "Damit ich dir eine Offerte zustellen kann, benötige ich noch deinen Namen, Adresse, Natelnummer und E-Mail Adresse."
