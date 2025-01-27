@@ -8,7 +8,12 @@ matches:
     replace: |
       Freundliche Grüsse
       {{firstname}}
-      
+
+  - trigger: ",ffg"
+    replace: |
+     Meilleures salutations
+     {{firstname}}
+
   - trigger: ",ok"
     form: |
       Guten Tag [[Name]]
@@ -228,11 +233,6 @@ matches:
       
       Meilleures salutations
       {{firstname}}
-  
-  - trigger: ",sal"
-    replace: |
-     Meilleures salutations
-     {{firstname}}
 
   - trigger: ",franul"
     form: |
