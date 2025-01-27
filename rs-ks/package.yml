@@ -48,7 +48,18 @@ matches:
       
       Freundliche Grüsse
       {{firstname}}
+
+  - trigger: ",dank"
+    form: |
+      Bonjour [[Name]]  
       
+      Super, merci beaucoup pour la confirmation.  
+      
+      Je suis à votre disposition pour toute question.  
+      
+      Meilleures salutations
+      {{firstname}}
+  
   - trigger: ",vert"
     form: |
       Guten Tag [[Name]]  
