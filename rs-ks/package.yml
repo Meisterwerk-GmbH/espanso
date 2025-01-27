@@ -11,8 +11,8 @@ matches:
 
   - trigger: ",ffg"
     replace: |
-     Meilleures salutations
-     {{firstname}}
+      Meilleures salutations
+      {{firstname}}
 
   - trigger: ",ok"
     form: |
