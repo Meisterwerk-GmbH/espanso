@@ -20,6 +20,18 @@ matches:
       
       Freundliche Grüsse
       {{firstname}}
+
+  - trigger: ",fok"
+    form: |
+      Bonjour [[Name]]
+      
+      french 
+      alma.
+      
+      tadaa
+      
+      Meilleurs salutations
+      {{firstname}}
       
   - trigger: ",dank"
     form: |
