@@ -30,14 +30,14 @@ matches:
     form: |
       Bonjour [[Name]]
       
-      french surprise
-      alma.
+      Je voulais vous demander si vous aviez déjà pu jeter un coup d'œil à la confirmation. 
+      Je vous invite à me confirmer brièvement que vous êtes d'accord avec la réservation et les conditions.
       
-      tadaa
+      Je suis à votre disposition pour toute question.
       
-      Meilleurs salutations
+      Meilleures salutations
       {{firstname}}
-      
+
   - trigger: ",dank"
     form: |
       Guten Tag [[Name]]  
