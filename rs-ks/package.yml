@@ -4,21 +4,92 @@ imports:
   - "sub/_struggler.yml"
 
 matches:
-  - trigger: ",bar"
-    replace: "Bar bezahlt"
-    
-  - trigger: ",karte"
-    replace: "Mit Karte bezahlt"
-    
-  - trigger: ",twint"
-    replace: "Mit Twint bezahlt"   
-        
-  - trigger: ",tel"
-    replace: "Anfrage per Telefon"
-        
-  - trigger: ",rech"
-    replace: "Zahlt auf Rechnung"
-    
+  - trigger: ",doppel"
+    form: |
+      Guten Tag [[Name]]
+
+      ​Wie wir feststellen mussten wurde die Rechnung im Anhang zweimal überwiesen.
+      Damit wir die Zahlung zurückerstatten können, benötigen wir noch deine IBAN.
+
+      Freundliche Grüsse
+      {{firstname}}
+
+  - trigger: ",fdoppel"
+    form: |
+      Bonjour [[Name]]  
+      
+      Nous avons constaté que la facture jointe a été versée deux fois.
+      Afin que nous puissions rembourser le paiement, nous avons encore besoin de votre IBAN.
+      
+      Meilleures salutations
+      {{firstname}}
+
+  - trigger: ",iban"
+    form: |
+      Unser Kontoangaben lauten wie folgt:
+
+      meisterwerk GmbH
+      Dorf 10
+      3053 Deisswil
+      Zürcher Kantonalbank
+      IBAN: CH35 0070 0110 0049 6385 9
+      SWIFT (BIC): ZKBKCHZZ80A
+
+  - trigger: ",fiban"
+    form: |
+      Nos coordonnées bancaires sont les suivantes:
+
+      meisterwerk GmbH
+      Dorf 10
+      3053 Deisswil
+      Zürcher Kantonalbank
+      IBAN: CH35 0070 0110 0049 6385 9
+      SWIFT (BIC): ZKBKCHZZ80A
+
+  - trigger: ",anvo"
+    form: |
+      Guten Tag [[Name]] 
+
+      Da die Vorkassenrechnung bis heute nicht beglichen wurde, wird die Bestellung nun storniert.
+      Wir hoffen ein anderes Mal behilflich sein zu können.
+
+      Bei Fragen stehe ich gerne zur Verfügung.
+      
+      Freundliche Grüsse
+      {{firstname}}
+
+  - trigger: ",fanvo"
+    form: |
+      Bonjour [[Name]]  
+      
+      Comme la facture de prépaiement n'a pas été réglée à ce jour, la commande est maintenant annulée.
+      Nous espérons pouvoir vous aider une autre fois.
+
+      Je reste à votre disposition pour toute question.
+      
+      Meilleures salutations
+      {{firstname}}
+  
+  - trigger: ",redep"
+    form: |
+      Guten Tag [[Name]]  
+      
+      Deine Buchung ist zurückgekommen - besten Dank.
+      Damit wir das Depot zurückerstatten können, benötige ich noch Deine IBAN.
+      
+      Freundliche Grüsse
+      {{firstname}}
+
+  - trigger: ",fredep"
+    form: |
+      Bonjour [[Name]]  
+      
+      Votre commande est de retour - merci beaucoup.
+      Pour que nous puissions vous rembourser le dépôt, j'ai besoin de votre IBAN.
+      
+      Meilleures salutations
+      {{firstname}}
+
   - trigger: ",fg"
     replace: |
       Freundliche Grüsse
@@ -280,26 +351,6 @@ matches:
       Meilleures salutations
       {{firstname}}
 
-  - trigger: ",redep"
-    form: |
-      Guten Tag [[Name]]  
-      
-      Deine Buchung ist zurückgekommen - besten Dank.
-      Damit wir das Depot zurückerstatten können, benötige ich noch Deine IBAN.
-      
-      Freundliche Grüsse
-      {{firstname}}
-
-  - trigger: ",fredep"
-    form: |
-      Bonjour [[Name]]  
-      
-      Votre commande est de retour - merci beaucoup.
-      Pour que nous puissions vous rembourser le dépôt, j'ai besoin de votre IBAN.
-      
-      Meilleures salutations
-      {{firstname}}
-
   - trigger: ",kur"
     form: |
       Guten Tag [[Name]]
@@ -345,5 +396,21 @@ matches:
       
       Meilleures salutations
       {{firstname}}
+
+  - trigger: ",bar"
+    replace: "Bar bezahlt"
+    
+  - trigger: ",karte"
+    replace: "Mit Karte bezahlt"
+    
+  - trigger: ",twint"
+    replace: "Mit Twint bezahlt"   
+        
+  - trigger: ",tel"
+    replace: "Anfrage per Telefon"
+        
+  - trigger: ",rech"
+    replace: "Zahlt auf Rechnung"
+    
  
 
