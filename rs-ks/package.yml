@@ -28,6 +28,78 @@ matches:
     replace: |
       Meilleures salutations
       {{firstname}}
+      
+  - trigger: ",ruck"
+    form: |
+      Guten Tag [[Name]]  
+      
+      Besten Dank für die Rückmeldung.
+
+  - trigger: ",fruck"
+    form: |
+      Bonjour [[Name]]  
+      
+      Merci pour votre réponse.
+
+  - trigger: ",anf"
+    replace: "Guten Tag Besten Dank für die Anfrage."
+    
+  - trigger: ",fanf"
+    replace: "Bonjour Nous vous remercions pour votre demande."
+
+  - trigger: ",handy"
+    replace: "Damit ich den Mietvertrag zustellen kann, benötige ich noch eine schweizer Handynummer. Der Mietvertrag wird per SMS Code unterschrieben."
+
+  - trigger: ",fhandy"
+    replace: "Pour pouvoir envoyer le contrat de location, j'ai besoin d'un numéro de téléphone portable suisse. Le contrat de location sera signé par un code SMS."
+
+  - trigger: ",depot"
+    replace: "Bitte beachte, dass während der Miete ein Depot hinterlegt werden muss."
+    
+  - trigger: ",fdepot"
+    replace: "Veuillez noter qu'un dépôt de garantie doit être versé pendant la location."
+    
+  - trigger: ",track"
+    form: "http://www.post.ch/swisspost-tracking?formattedParcelCodes=99.60.096403.0000[[Nummer]]&p_language=de"   
+        
+  - trigger: ",ftrack"
+    form: "http://www.post.ch/swisspost-tracking?formattedParcelCodes=99.60.096403.0000[[Nummer]]&p_language=fr"
+    
+  - trigger: ",fehlt"
+    replace: "Für die Bestätigung der Offerte, benötige ich noch Deine Adresse und die Natelnummer."
+        
+  - trigger: ",ffehlt"
+    replace: "Pour la confirmation de l'offre, j'ai besoin de votre adresse et de votre numéro de téléphone portable."
+    
+  - trigger: ",ofer"
+    replace: "Damit ich dir eine Offerte zustellen kann, benötige ich noch deinen Namen, Adresse, Natelnummer und E-Mail Adresse."
+        
+  - trigger: ",fofer"
+    replace: "Pour que je puisse vous envoyer une offre, j'ai besoin de votre nom, adresse, numéro de téléphone portable et adresse e-mail."
+    
+  - trigger: ",frag"
+    replace: "Bei Fragen oder Änderungswünschen stehe ich gerne zur Verfügung."    
+        
+  - trigger: ",ffrag"
+    replace: "Je suis à votre disposition pour toute question ou demande de modification."  
+    
+  - trigger: ",lagzh"
+    replace: "Das Lager Zürich hat unter der Woche täglich von 11.00 -17.00 Uhr geöffnet. Am Donnerstag kann auf Anfrage bis um 19.00 Uhr abgeholt werden."
+
+  - trigger: ",flagzh"
+    replace: "L'entrepôt de Zurich est ouvert tous les jours de la semaine de 11h00 à 17h00. Le jeudi, il est possible de venir chercher les articles jusqu'à 19h00 sur demande."
+    
+  - trigger: ",lagbs"
+    replace: "Das Lager Basel hat jeweils am Mittwoch von 18:00 - 19:30 Uhr geöffnet."  
+
+  - trigger: ",flagbs"
+    replace: "L'entrepôt de Bâle est ouvert le mercredi de 18h00 à 19h30."  
+    
+  - trigger: ",lagbe"
+    replace: "Das Lager Bern hat jeweils am Mittwoch von 17:00-19:00 Uhr geöffnet. Falls dir die Zeiten nicht passen, haben wir in Bern auch ein Pickup Lager (ohne Betreuung), bei welchem du jederzeit dein Equipment abholen und returnieren kannst. Bitte lass mich es wissen, falls du lieber auf Pickup wechseln möchtest."
+    
+  - trigger: ",flagbe"
+    replace: "L'entrepôt de Berne est ouvert tous les mercredis de 17h00 à 19h00. Si ces horaires ne vous conviennent pas, nous avons également un entrepôt pickup (sans personnel d'accueil) à Berne, où vous pouvez venir chercher votre équipement et le retourner à tout moment. Merci de me prévenir si vous préférez passer au pickup."
 
   - trigger: ",ok"
     form: |
@@ -227,69 +299,6 @@ matches:
       
       Meilleures salutations
       {{firstname}}
-
-  - trigger: ",ruck"
-    form: |
-      Guten Tag [[Name]]  
-      
-      Besten Dank für die Rückmeldung.
-
-  - trigger: ",fruck"
-    form: |
-      Bonjour [[Name]]  
-      
-      Merci pour votre réponse.
-
-  - trigger: ",anf"
-    replace: "Guten Tag Besten Dank für die Anfrage."
-    
-  - trigger: ",fanf"
-    replace: "Bonjour Nous vous remercions pour votre demande."
-
-  - trigger: ",handy"
-    replace: "Damit ich den Mietvertrag zustellen kann, benötige ich noch eine schweizer Handynummer. Der Mietvertrag wird per SMS Code unterschrieben."
-
-  - trigger: ",fhandy"
-    replace: "Pour pouvoir envoyer le contrat de location, j'ai besoin d'un numéro de téléphone portable suisse. Le contrat de location sera signé par un code SMS."
-
-  - trigger: ",depot"
-    replace: "Bitte beachte, dass während der Miete ein Depot hinterlegt werden muss."
-    
-  - trigger: ",fdepot"
-    replace: "Veuillez noter qu'un dépôt de garantie doit être versé pendant la location."
-    
-  - trigger: ",track"
-    form: "http://www.post.ch/swisspost-tracking?formattedParcelCodes=99.60.096403.0000[[Nummer]]&p_language=de"   
-        
-  - trigger: ",ftrack"
-    form: "http://www.post.ch/swisspost-tracking?formattedParcelCodes=99.60.096403.0000[[Nummer]]&p_language=fr"
-    
-  - trigger: ",fehlt"
-    replace: "Für die Bestätigung der Offerte, benötige ich noch Deine Adresse und die Natelnummer."
-        
-  - trigger: ",ffehlt"
-    replace: "Pour la confirmation de l'offre, j'ai besoin de votre adresse et de votre numéro de téléphone portable."
-    
-  - trigger: ",ofer"
-    replace: "Damit ich dir eine Offerte zustellen kann, benötige ich noch deinen Namen, Adresse, Natelnummer und E-Mail Adresse."
-        
-  - trigger: ",fofer"
-    replace: "Pour que je puisse vous envoyer une offre, j'ai besoin de votre nom, adresse, numéro de téléphone portable et adresse e-mail."
-    
-  - trigger: ",frag"
-    replace: "Bei Fragen oder Änderungswünschen stehe ich gerne zur Verfügung."    
-        
-  - trigger: ",ffrag"
-    replace: "Je suis à votre disposition pour toute question ou demande de modification."  
-    
-  - trigger: ",lagzh"
-    replace: "Das Lager Zürich hat unter der Woche täglich von 11.00 -17.00 Uhr geöffnet. Am Donnerstag kann auf Anfrage bis um 19.00 Uhr abgeholt werden."
-    
-  - trigger: ",lagbs"
-    replace: "Das Lager Basel hat jeweils am Mittwoch von 18:00 - 19:30 Uhr geöffnet."  
-    
-  - trigger: ",lagbe"
-    replace: "Das Lager Bern hat jeweils am Mittwoch von 17:00-19:00 Uhr geöffnet. Falls dir die Zeiten nicht passen, haben wir in Bern auch ein Pickup Lager (ohne Betreuung), bei welchem du jederzeit dein Equipment abholen und returnieren kannst. Bitte lass mich es wissen, falls du lieber auf Pickup wechseln möchtest."
 
   - trigger: ",kur"
     form: |
