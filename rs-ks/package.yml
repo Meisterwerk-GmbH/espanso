@@ -203,11 +203,27 @@ matches:
       Freundliche Grüsse
       {{firstname}}
       
+  - trigger: ",fredep"
+    form: |
+      Bonjour [[Name]]  
+      
+      Votre commande est de retour - merci beaucoup.
+      Pour que nous puissions vous rembourser le dépôt, j'ai besoin de votre IBAN.
+      
+      Meilleures salutations
+      {{firstname}}
+      
   - trigger: ",rück"
     form: |
       Guten Tag [[Name]]  
       
       Besten Dank für die Rückmeldung.
+            
+  - trigger: ",frück"
+    form: |
+      Bonjour [[Name]]  
+      
+      Merci pour votre réponse.
        
   - trigger: ",bar"
     replace: "Bar bezahlt"
