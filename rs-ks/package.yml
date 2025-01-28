@@ -99,7 +99,7 @@ matches:
     replace: "Das Lager Bern hat jeweils am Mittwoch von 17:00-19:00 Uhr geöffnet. Falls dir die Zeiten nicht passen, haben wir in Bern auch ein Pickup Lager (ohne Betreuung), bei welchem du jederzeit dein Equipment abholen und returnieren kannst. Bitte lass mich es wissen, falls du lieber auf Pickup wechseln möchtest."
     
   - trigger: ",flagbe"
-    replace: "L'entrepôt de Berne est ouvert tous les mercredis de 17h00 à 19h00. Si ces horaires ne vous conviennent pas, nous avons également un entrepôt pickup (sans personnel d'accueil) à Berne, où vous pouvez venir chercher votre équipement et le retourner à tout moment. Merci de me prévenir si vous préférez passer au pickup."
+    replace: "L'entrepôt de Berne est ouvert tous le mercredi de 17h00 à 19h00. Si ces horaires ne vous conviennent pas, nous avons également un entrepôt pickup (sans personnel d'accueil) à Berne, où vous pouvez venir chercher votre équipement et le retourner à tout moment. Merci de me prévenir si vous préférez passer au pickup."
 
   - trigger: ",ok"
     form: |
