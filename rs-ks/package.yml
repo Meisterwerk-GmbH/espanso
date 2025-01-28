@@ -272,9 +272,15 @@ matches:
     
   - trigger: ",ofer"
     replace: "Damit ich dir eine Offerte zustellen kann, benötige ich noch deinen Namen, Adresse, Natelnummer und E-Mail Adresse."
+        
+  - trigger: ",fofer"
+    replace: "Pour que je puisse vous envoyer une offre, j'ai besoin de votre nom, adresse, numéro de téléphone portable et adresse e-mail."
     
   - trigger: ",frag"
     replace: "Bei Fragen oder Änderungswünschen stehe ich gerne zur Verfügung."    
+        
+  - trigger: ",ffrag"
+    replace: "Je suis à votre disposition pour toute question ou demande de modification."  
     
   - trigger: ",lagzh"
     replace: "Das Lager Zürich hat unter der Woche täglich von 11.00 -17.00 Uhr geöffnet. Am Donnerstag kann auf Anfrage bis um 19.00 Uhr abgeholt werden."
