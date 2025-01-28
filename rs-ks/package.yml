@@ -213,19 +213,13 @@ matches:
       Meilleures salutations
       {{firstname}}
 
-  - trigger: ",rück"
+  - trigger: ",ruck"
     form: |
       Guten Tag [[Name]]  
       
       Besten Dank für die Rückmeldung.
 
-  - trigger: ",frück2"
-    form: |
-      Guten Tag [[Name]]  
-      
-      Besten Dank für die Rückmeldung.
-
-  - trigger: ",frück"
+  - trigger: ",fruck"
     form: |
       Bonjour [[Name]]  
       
