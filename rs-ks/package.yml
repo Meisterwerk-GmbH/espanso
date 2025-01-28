@@ -247,10 +247,16 @@ matches:
     replace: "Bonjour Nous vous remercions pour votre demande."
 
   - trigger: ",handy"
-    replace: "Damit ich den Mietvertrag zustellen kann, benötige ich noch eine Handynummer. Der Mietvertrag wird per SMS Code unterschrieben."
+    replace: "Damit ich den Mietvertrag zustellen kann, benötige ich noch eine schweizer Handynummer. Der Mietvertrag wird per SMS Code unterschrieben."
+
+  - trigger: ",fhandy"
+    replace: "Pour pouvoir envoyer le contrat de location, j'ai besoin d'un numéro de téléphone portable suisse. Le contrat de location sera signé par un code SMS."
 
   - trigger: ",depot"
     replace: "Bitte beachte, dass während der Miete ein Depot hinterlegt werden muss."
+    
+  - trigger: ",fdepot"
+    replace: "Veuillez noter qu'un dépôt de garantie doit être versé pendant la location."
     
   - trigger: ",track"
     form: "http://www.post.ch/swisspost-tracking?formattedParcelCodes=99.60.096403.0000[[Nummer]]&p_language=de"   
@@ -272,28 +278,7 @@ matches:
     
   - trigger: ",lagbe"
     replace: "Das Lager Bern hat jeweils am Mittwoch von 17:00-19:00 Uhr geöffnet. Falls dir die Zeiten nicht passen, haben wir in Bern auch ein Pickup Lager (ohne Betreuung), bei welchem du jederzeit dein Equipment abholen und returnieren kannst. Bitte lass mich es wissen, falls du lieber auf Pickup wechseln möchtest."
-      
-  - trigger: ",int"
-    form: |
-      Bonjour [[Name]]  
-      
-      Je voulais savoir s'il y avait encore de l'intérêt pour notre offre ? 
-      Dans le cas contraire, l'offre perdra prochainement sa validité. 
-      S'il y a des incertitudes ou des souhaits de modification à ce sujet, je vous aiderai volontiers.
-      
-      Meilleures salutations
-      {{firstname}}
 
-  - trigger: ",port"
-    form: |
-      Bonjour [[Name]]  
-      
-      Pour pouvoir envoyer le contrat de location, j'ai besoin d'un numéro de téléphone portable suisse. 
-      Le contrat de location sera signé par code SMS.
-      
-      Meilleures salutations
-      {{firstname}}
-      
   - trigger: ",kur"
     form: |
       Guten Tag [[Name]]
