@@ -224,7 +224,7 @@ matches:
       Bonjour [[Name]]  
       
       Merci pour votre réponse.
-       
+
   - trigger: ",bar"
     replace: "Bar bezahlt"
     
