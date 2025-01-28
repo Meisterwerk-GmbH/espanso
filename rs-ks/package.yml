@@ -219,6 +219,12 @@ matches:
       
       Besten Dank für die Rückmeldung.
 
+  - trigger: ",frück2"
+    form: |
+      Guten Tag [[Name]]  
+      
+      Besten Dank für die Rückmeldung.
+
   - trigger: ",frück"
     form: |
       Bonjour [[Name]]  
