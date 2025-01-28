@@ -202,7 +202,7 @@ matches:
       
       Freundliche Grüsse
       {{firstname}}
-      
+
   - trigger: ",fredep"
     form: |
       Bonjour [[Name]]  
@@ -212,13 +212,13 @@ matches:
       
       Meilleures salutations
       {{firstname}}
-      
+
   - trigger: ",rück"
     form: |
       Guten Tag [[Name]]  
       
       Besten Dank für die Rückmeldung.
-            
+
   - trigger: ",frück"
     form: |
       Bonjour [[Name]]  
