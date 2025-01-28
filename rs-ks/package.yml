@@ -163,6 +163,16 @@ matches:
       Freundliche Grüsse
       {{firstname}}
       
+  - trigger: ",fabs"
+    form: |
+      Bonjour [[Name]]
+      
+      Nous vous remercions pour l'information concernant l'annulation.
+      Nous serons ravis de vous aider une autre fois.
+      
+      Meilleures salutations
+      {{firstname}}
+      
   - trigger: ",anu"
     form: |
       Guten Tag [[Name]]  
@@ -171,6 +181,16 @@ matches:
       Wir hoffen ein anders Mal behilflich sein zu können.
       
       Freundliche Grüsse
+      {{firstname}}
+            
+  - trigger: ",fanu"
+    form: |
+      Bonjour [[Name]]  
+      
+      Comme nous n'avons pas reçu de réponse, nous avons annulé la demande.
+      Nous serons ravis de vous aider une autre fois.
+      
+      Meilleures salutations
       {{firstname}}
 
   - trigger: ",redep"
@@ -257,16 +277,6 @@ matches:
       
       Pour pouvoir envoyer le contrat de location, j'ai besoin d'un numéro de téléphone portable suisse. 
       Le contrat de location sera signé par code SMS.
-      
-      Meilleures salutations
-      {{firstname}}
-
-  - trigger: ",franul"
-    form: |
-      Bonjour [[Name]]
-      
-      Nous vous remercions pour l'information concernant l'annulation. Nous espérons pouvoir vous aider une autre fois.
-      Je suis à votre disposition pour toute question via info@rentshop.ch.
       
       Meilleures salutations
       {{firstname}}
