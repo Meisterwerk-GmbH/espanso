@@ -108,7 +108,6 @@ matches:
       Meilleures salutations 
       {{firstname}}
 
-
   - trigger: ",drafol"
     form: |
       Guten Tag [[Name]]  
@@ -120,7 +119,17 @@ matches:
       Freundliche Grüsse
       {{firstname}}
       
-  - trigger: ",draf2"
+  - trigger: ",fdrafol"
+    form: |
+      Bonjour [[Name]]  
+      
+      Je voulais savoir si vous aviez déjà pu consulter l'offre. 
+      S'il y a des incertitudes ou des demandes de modification, je serai ravi de vous aider.
+      
+      Meilleures salutations
+      {{firstname}}
+      
+  - trigger: ",drafo2"
     form: |
       Guten Tag [[Name]]  
       
@@ -130,6 +139,18 @@ matches:
       Falls es diesbezüglich Unklarheiten oder Änderungswünschen gibt, helfe ich gerne weiter.
       
       Freundliche Grüsse
+      {{firstname}}
+      
+  - trigger: ",fdrafo2"
+    form: |
+      Bonjour [[Name]]  
+      
+      Je voulais savoir s'il y avait encore de l'intérêt pour notre offre ? 
+      Dans le cas contraire, l'offre perdra prochainement sa validité. 
+      
+      S'il y a des ambiguïtés ou des demandes de modification à ce sujet, je serai ravi de vous aider.
+      
+      Meilleures salutations
       {{firstname}}
     
   - trigger: ",abs"
@@ -218,16 +239,6 @@ matches:
       Bonjour [[Name]]  
       
       Nous vous remercions pour votre demande.
-      
-  - trigger: ",offr"
-    form: |
-      Bonjour [[Name]]  
-      
-      Je voulais savoir si vous aviez déjà pu consulter l'offre. 
-      S'il y a des incertitudes ou des demandes de modification, je serai heureux de vous aider.
-      
-      Meilleures salutations
-      {{firstname}}
       
   - trigger: ",int"
     form: |
