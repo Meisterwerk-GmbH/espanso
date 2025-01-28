@@ -49,7 +49,7 @@ matches:
       Freundliche Grüsse
       {{firstname}}
 
-  - trigger: ",dank"
+  - trigger: ",fdank"
     form: |
       Bonjour [[Name]]  
       
@@ -69,6 +69,17 @@ matches:
       Falls es diesbezüglich Unklarheiten oder Änderungswünsche gibt, helfe ich gerne weiter.
       
       Freundliche Grüsse
+      {{firstname}}
+  
+  - trigger: ",fvert"
+    form: |
+      Bonjour [[Name]]  
+      
+      Je voulais vous demander si vous aviez déjà pu consulter le contrat de location (e-mail d'e-Signature). 
+      
+      S'il y a des imprécisions ou des demandes de modification à ce sujet, je serai ravi de vous aider.
+      
+      Meilleures salutations
       {{firstname}}
 
   - trigger: ",dring"
@@ -222,19 +233,7 @@ matches:
       
       Meilleures salutations
       {{firstname}}
-      
-        
-  - trigger: ",cont"
-    form: |
-      Bonjour [[Name]]  
-      
-      Je voulais savoir si vous aviez déjà pu consulter le contrat de location (e-mail d'e-Signature). 
-      S'il y a des imprécisions ou des demandes de modification à ce sujet, je serai ravi de vous aider.
-      
-      Meilleures salutations
-      {{firstname}}
-   
-   
+
   - trigger: ",port"
     form: |
       Bonjour [[Name]]  
