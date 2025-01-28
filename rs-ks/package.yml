@@ -94,6 +94,20 @@ matches:
       
       Freundliche Grüsse
       {{firstname}}
+        
+  - trigger: ",fdring"
+    form: |
+      Bonjour [[Name]] 
+      
+      Merci pour votre demande.
+      Je viens de vous envoyer le contrat de location (voir e-mail d'e-Signature).
+      Merci de nous renvoyer le contrat avant 14h00 afin que nous puissions envoyer la marchandise à temps.
+      
+      S'il y a des ambiguïtés ou des modifications à ce sujet, je serai ravi de vous aider.
+      
+      Meilleures salutations 
+      {{firstname}}
+
 
   - trigger: ",drafol"
     form: |
@@ -198,14 +212,6 @@ matches:
     
   - trigger: ",lagbe"
     replace: "Das Lager Bern hat jeweils am Mittwoch von 17:00-19:00 Uhr geöffnet. Falls dir die Zeiten nicht passen, haben wir in Bern auch ein Pickup Lager (ohne Betreuung), bei welchem du jederzeit dein Equipment abholen und returnieren kannst. Bitte lass mich es wissen, falls du lieber auf Pickup wechseln möchtest."
-  
-  - trigger: ",urg"
-    form: |
-      Bonjour [[Name]] 
-      Merci de nous renvoyer le contrat avant 14h00 afin que nous puissions envoyer la marchandise à temps.
-      
-      Meilleures salutations 
-      {{firstname}}
   
   - trigger: ",dem"
     form: |
