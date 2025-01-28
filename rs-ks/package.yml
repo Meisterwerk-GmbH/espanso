@@ -260,9 +260,15 @@ matches:
     
   - trigger: ",track"
     form: "http://www.post.ch/swisspost-tracking?formattedParcelCodes=99.60.096403.0000[[Nummer]]&p_language=de"   
+        
+  - trigger: ",ftrack"
+    form: "http://www.post.ch/swisspost-tracking?formattedParcelCodes=99.60.096403.0000[[Nummer]]&p_language=fr"
     
   - trigger: ",fehlt"
-    replace: "Für die Bestätigung der Offerte, benötige ich noch deine Adresse und die Natelnummer."
+    replace: "Für die Bestätigung der Offerte, benötige ich noch Deine Adresse und die Natelnummer."
+        
+  - trigger: ",ffehlt"
+    replace: "Pour la confirmation de l'offre, j'ai besoin de votre adresse et de votre numéro de téléphone portable."
     
   - trigger: ",ofer"
     replace: "Damit ich dir eine Offerte zustellen kann, benötige ich noch deinen Namen, Adresse, Natelnummer und E-Mail Adresse."
