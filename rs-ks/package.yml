@@ -312,6 +312,18 @@ matches:
       Freundliche Grüsse
       {{firstname}}
       
+  - trigger: ",fkur"
+    form: |
+      Bonjour [[Name]]
+      
+      Vous trouverez ici notre formulaire de courrier : https://forms.gle/MxVA6MxyYRwKpfy28
+      Dès que vous l'aurez rempli et que vous aurez signé le contrat (mail séparé), votre demande sera transmise au courrier.
+      
+      Je reste à votre disposition pour toute question ou demande de modification.
+      
+      Meilleures salutations
+      {{firstname}}
+      
   - trigger: ",audio"
     form: |
       Guten Tag [[Name]]
@@ -321,6 +333,17 @@ matches:
       Falls weitere Fragen auftauchen, stehe ich gerne zur Verfügung.
       
       Freundliche Grüsse
+      {{firstname}}
+
+  - trigger: ",faudio"
+    form: |
+      Bonjour [[Name]]
+      
+      Nous vous remercions pour votre demande. 
+      Nous avons préparé des instructions séparées pour les différentes connexions audio, que vous pouvez consulter en cliquant sur le lien suivant : [https://manuals.rentshop.ch/audio-anschluesse/].
+      Si d'autres questions se posent, je suis à votre disposition.
+      
+      Meilleures salutations
       {{firstname}}
  
 
