@@ -19,7 +19,7 @@ matches:
       Bonjour [[Name]]  
       
       Nous avons constaté que la facture jointe a été versée deux fois.
-      Afin que nous puissions rembourser le paiement, nous avons encore besoin de votre IBAN.
+      Afin que nous puissions rembourser le paiement, nous avons besoin de votre IBAN.
       
       Meilleures salutations
       {{firstname}}
@@ -75,7 +75,7 @@ matches:
       Guten Tag [[Name]]  
       
       Deine Buchung ist zurückgekommen - besten Dank.
-      Damit wir das Depot zurückerstatten können, benötige ich noch Deine IBAN.
+      Damit wir das Depot zurückerstatten können, benötigen wir noch Deine IBAN.
       
       Freundliche Grüsse
       {{firstname}}
@@ -143,7 +143,7 @@ matches:
     replace: "Pour la confirmation de l'offre, j'ai besoin de votre adresse et de votre numéro de téléphone portable."
     
   - trigger: ",ofer"
-    replace: "Damit ich dir eine Offerte zustellen kann, benötige ich noch deinen Namen, Adresse, Natelnummer und E-Mail Adresse."
+    replace: "Damit ich dir eine Offerte zustellen kann, benötige ich noch Deinen Namen, Adresse, Natelnummer und E-Mail Adresse."
         
   - trigger: ",fofer"
     replace: "Pour que je puisse vous envoyer une offre, j'ai besoin de votre nom, adresse, numéro de téléphone portable et adresse e-mail."
@@ -167,16 +167,16 @@ matches:
     replace: "L'entrepôt de Bâle est ouvert le mercredi de 18h00 à 19h30."  
     
   - trigger: ",lagbe"
-    replace: "Das Lager Bern hat jeweils am Mittwoch von 17:00-19:00 Uhr geöffnet. Falls dir die Zeiten nicht passen, haben wir in Bern auch ein Pickup Lager (ohne Betreuung), bei welchem du jederzeit dein Equipment abholen und returnieren kannst. Bitte lass mich es wissen, falls du lieber auf Pickup wechseln möchtest."
+    replace: "Das Lager Bern hat jeweils am Mittwoch von 17:00-19:00 Uhr geöffnet. Falls Dir die Zeiten nicht passen, haben wir in Bern auch ein Pickup Lager (ohne Betreuung), bei welchem Du jederzeit dein Equipment abholen und returnieren kannst. Bitte lass mich es wissen, falls Du lieber auf Pickup wechseln möchtest."
     
   - trigger: ",flagbe"
-    replace: "L'entrepôt de Berne est ouvert tous le mercredi de 17h00 à 19h00. Si ces horaires ne vous conviennent pas, nous avons également un entrepôt pickup (sans personnel d'accueil) à Berne, où vous pouvez venir chercher votre équipement et le retourner à tout moment. Merci de me prévenir si vous préférez passer au pickup."
+    replace: "L'entrepôt de Berne est ouvert le mercredi de 17h00 à 19h00. Si ces horaires ne vous conviennent pas, nous avons également un entrepôt pickup (sans personnel d'accueil) à Berne, où vous pouvez venir chercher votre équipement et le retourner à tout moment. Merci de me prévenir si vous préférez passer au pickup."
 
   - trigger: ",ok"
     form: |
       Guten Tag [[Name]]
       
-      Ich wollte kurz nachfragen, ob du die Bestätigung schon anschauen konntest. 
+      Ich wollte kurz nachfragen, ob Du die Bestätigung schon anschauen konntest. 
       Gib mir doch bitte eine kurze Rückbestätigung, dass Du mit der Reservation und den Bedingungen einverstanden bist.
       
       Bei Fragen stehe ich gerne zur Verfügung.
@@ -222,7 +222,7 @@ matches:
     form: |
       Guten Tag [[Name]]  
       
-      Ich wollte kurz nachfragen, ob du den Mietvertrag (E-Mail von e-Signature) schon anschauen konntest.
+      Ich wollte kurz nachfragen, ob Du den Mietvertrag (E-Mail von e-Signature) schon anschauen konntest.
       
       Falls es diesbezüglich Unklarheiten oder Änderungswünsche gibt, helfe ich gerne weiter.
       
@@ -246,7 +246,7 @@ matches:
 
       Besten Dank für die Anfrage.
       Ich habe soeben den Mietvertrag zugestellt (siehe E-Mail von e-Signature). 
-      Damit die Buchung Heute verschickt werden kann, muss der Vertrag bis um 14.00 Uhr unterschrieben werden.
+      Bitte sende uns den Vertrag vor 14.00 Uhr zurück, damit wir die Ware noch heute versenden können.
       
       Falls es diesbezüglich Unklarheiten oder Änderungswünsche gibt, helfe ich gerne weiter.
       
@@ -270,7 +270,7 @@ matches:
     form: |
       Guten Tag [[Name]]  
       
-      Ich wollte kurz nachfragen, ob du die Offerte schon anschauen konntest.
+      Ich wollte kurz nachfragen, ob Du die Offerte schon anschauen konntest.
       
       Falls es diesbezüglich Unklarheiten oder Änderungswünsche gibt, helfe ich gerne weiter.
       
@@ -356,7 +356,7 @@ matches:
       Guten Tag [[Name]]
       
       Hier findest Du unser Kurier Formular: https://forms.gle/MxVA6MxyYRwKpfy28
-      Sobald du dieses ausgefüllt und den Vertrag digital unterzeichnet hast (separate Mail), wird Deine Anfrage an den Kurier weitergeleitet.
+      Sobald Du dieses ausgefüllt und den Vertrag digital unterzeichnet hast (separate Mail), wird Deine Anfrage an den Kurier weitergeleitet.
       
       Bei Fragen oder Änderungswünschen stehe ich gerne zur Verfügung.
       
@@ -380,7 +380,7 @@ matches:
       Guten Tag [[Name]]
       
       Herzlichen Dank für Deine Anfrage. 
-      Wir haben für die verschiedenen Audioanschlüsse eine separate Anleitung vorbereitet, die du unter folgendem Link abrufen kannst: [https://manuals.rentshop.ch/audio-anschluesse/].
+      Wir haben für die verschiedenen Audioanschlüsse eine separate Anleitung vorbereitet, die Du unter folgendem Link abrufen kannst: [https://manuals.rentshop.ch/audio-anschluesse/].
       Falls weitere Fragen auftauchen, stehe ich gerne zur Verfügung.
       
       Freundliche Grüsse
