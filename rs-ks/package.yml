@@ -8,7 +8,7 @@ matches:
     form: |
       Guten Tag [[Name]]
 
-      ​Wie wir feststellen mussten wurde die Rechnung im Anhang zweimal überwiesen.
+      ​Wie wir feststellen mussten, wurde die Rechnung im Anhang zweimal überwiesen.
       Damit wir die Zahlung zurückerstatten können, benötigen wir noch Deine IBAN.
 
       Freundliche Grüsse
@@ -85,7 +85,7 @@ matches:
       Bonjour [[Name]]  
       
       Votre commande est de retour - merci beaucoup.
-      Pour que nous puissions vous rembourser le dépôt, j'ai besoin de votre IBAN.
+      Afin que nous puissions rembourser le dépôt, nous avons besoin de votre IBAN.
       
       Meilleures salutations
       {{firstname}}
