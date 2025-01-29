@@ -222,7 +222,7 @@ matches:
     form: |
       Guten Tag [[Name]]  
       
-      Ich wollte kurz nachfragen, ob du den Mietvertrag (E-Mail von e-Signature) schon anschauen konntest. 
+      Ich wollte kurz nachfragen, ob du den Mietvertrag (E-Mail von e-Signature) schon anschauen konntest.
       
       Falls es diesbezüglich Unklarheiten oder Änderungswünsche gibt, helfe ich gerne weiter.
       
@@ -233,7 +233,7 @@ matches:
     form: |
       Bonjour [[Name]]  
       
-      Je voulais vous demander si vous aviez déjà pu consulter le contrat de location (e-mail d'e-Signature). 
+      Je voulais vous demander si vous aviez déjà pu consulter le contrat de location (e-mail d'e-Signature).
       
       S'il y a des imprécisions ou des demandes de modification à ce sujet, je serai ravi de vous aider.
       
@@ -245,7 +245,7 @@ matches:
       Guten Tag [[Name]]  
 
       Besten Dank für die Anfrage.
-      Ich habe soebenen den Mietvertrag zugestellt (siehe E-Mail von e-Signature).
+      Ich habe soebenen den Mietvertrag zugestellt (siehe E-Mail von e-Signature). 
       Damit die Buchung Heute verschickt werden kann, muss der Vertrag bis um 14.00 Uhr unterschrieben werden.
       
       Falls es diesbezüglich Unklarheiten oder Änderungswünsche gibt, helfe ich gerne weiter.
@@ -258,7 +258,7 @@ matches:
       Bonjour [[Name]] 
       
       Merci pour votre demande.
-      Je viens de vous envoyer le contrat de location (voir e-mail d'e-Signature).
+      Je viens de vous envoyer le contrat de location (voir e-mail d'e-Signature). 
       Merci de nous renvoyer le contrat avant 14h00 afin que nous puissions envoyer la marchandise à temps.
       
       S'il y a des ambiguïtés ou des modifications à ce sujet, je serai ravi de vous aider.
@@ -270,7 +270,7 @@ matches:
     form: |
       Guten Tag [[Name]]  
       
-      Ich wollte kurz nachfragen, ob du die Offerte schon anschauen konntest. 
+      Ich wollte kurz nachfragen, ob du die Offerte schon anschauen konntest.
       
       Falls es diesbezüglich Unklarheiten oder Änderungswünsche gibt, helfe ich gerne weiter.
       
@@ -281,7 +281,7 @@ matches:
     form: |
       Bonjour [[Name]]  
       
-      Je voulais savoir si vous aviez déjà pu consulter l'offre. 
+      Je voulais vous demander si vous aviez déjà pu consulter l'offre.
       S'il y a des incertitudes ou des demandes de modification, je serai ravi de vous aider.
       
       Meilleures salutations
@@ -291,7 +291,7 @@ matches:
     form: |
       Guten Tag [[Name]]  
       
-      Ich wollte mich erkundigen, ob noch Interesse an unserem Angebot besteht? 
+      Ich wollte mich erkundigen, ob noch Interesse an unserem Angebot besteht.
       Andernfalls wird die Offerte demnächst ihre Gültigkeit verlieren. 
       
       Falls es diesbezüglich Unklarheiten oder Änderungswünschen gibt, helfe ich gerne weiter.
@@ -303,7 +303,7 @@ matches:
     form: |
       Bonjour [[Name]]  
       
-      Je voulais savoir s'il y avait encore de l'intérêt pour notre offre ? 
+      Je voulais vous demander s'il y avait encore de l'intérêt pour notre offre.
       Dans le cas contraire, l'offre perdra prochainement sa validité. 
       
       S'il y a des ambiguïtés ou des demandes de modification à ce sujet, je serai ravi de vous aider.
