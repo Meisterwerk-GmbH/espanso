@@ -7,7 +7,7 @@ matches:
 
   - trigger: ",stgal"
     form: |
-      Guten Tag [[Name]]
+      Hallo zusammen [[Name]]
       
       Wir haben eine neue Buchung für St. Gallen erhalten.
       Der Lieferschein befindet sich im Anhang.
