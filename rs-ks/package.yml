@@ -4,6 +4,17 @@ imports:
   - "sub/_struggler.yml"
 
 matches:
+ - trigger: ",stgal"
+    form: |
+      Hallo zusammen  
+      
+      Wir haben eine neue Buchung für St. Gallen erhalten.
+      Der Lieferschein befindet sich im Anhang.
+      Bei Fragen stehe ich gerne zur Verfügung.
+      
+      Freundliche Grüsse
+      {{firstname}}
+      
   - trigger: ",doppel"
     form: |
       Guten Tag [[Name]]
@@ -70,7 +81,7 @@ matches:
       Meilleures salutations
       {{firstname}}
   
-  - trigger: ",redep"
+  - trigger: ",rüdep"
     form: |
       Guten Tag [[Name]]  
       
@@ -80,7 +91,7 @@ matches:
       Freundliche Grüsse
       {{firstname}}
 
-  - trigger: ",fredep"
+  - trigger: ",früdep"
     form: |
       Bonjour [[Name]]  
       
@@ -155,10 +166,10 @@ matches:
     replace: "Je suis à votre disposition pour toute question ou demande de modification."  
     
   - trigger: ",lagzh"
-    replace: "Das Lager Zürich hat unter der Woche täglich von 11.00 -17.00 Uhr geöffnet. Am Donnerstag kann auf Anfrage bis um 19.00 Uhr abgeholt werden."
+    replace: "Das Lager Zürich hat unter der Woche täglich von 10.00 -17.00 Uhr geöffnet. Am Donnerstag kann auf Anfrage bis um 19.00 Uhr abgeholt werden."
 
   - trigger: ",flagzh"
-    replace: "L'entrepôt de Zurich est ouvert tous les jours de la semaine de 11h00 à 17h00. Le jeudi, il est possible de venir chercher les articles jusqu'à 19h00 sur demande."
+    replace: "L'entrepôt de Zurich est ouvert tous les jours de la semaine de 10h00 à 17h00. Le jeudi, il est possible de venir chercher les articles jusqu'à 19h00 sur demande."
     
   - trigger: ",lagbs"
     replace: "Das Lager Basel hat jeweils am Mittwoch von 18:00 - 19:30 Uhr geöffnet."  
