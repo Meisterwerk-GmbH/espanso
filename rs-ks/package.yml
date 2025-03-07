@@ -5,15 +5,15 @@ imports:
 
 matches:
  - trigger: ",stgal"
- - replace:
-      "Hallo zusammen  
+   form: |
+      Guten Tag [[Name]]
       
       Wir haben eine neue Buchung für St. Gallen erhalten.
       Der Lieferschein befindet sich im Anhang.
       Bei Fragen stehe ich gerne zur Verfügung.
       
       Freundliche Grüsse
-      {{firstname}}"
+      {{firstname}}
       
   - trigger: ",doppel"
     form: |
