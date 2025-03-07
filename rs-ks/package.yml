@@ -5,6 +5,17 @@ imports:
 
 matches:
 
+  - trigger: ",vorkasse"
+    form: |
+      Guten Tag [[Name]]
+      
+      Wir haben noch keine Zahlung erhalten.
+      Damit die Buchung bestätigt ist, muss die Zahlung efolgen.
+      Bei Fragen oder Unklarheiten stehen wir gerne zur Verfügung.
+
+      Freundliche Grüsse
+      {{firstname}}
+  
   - trigger: ",stgal"
     form: |
       Hallo zusammen [[Name]]
