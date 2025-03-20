@@ -258,7 +258,7 @@ matches:
       
       Je voulais vous demander si vous aviez déjà pu consulter le contrat de location (e-mail d'e-Signature).
       
-      S'il y a des imprécisions ou des demandes de modification à ce sujet, je serai ravi*e de vous aider.
+      Je suis à votre disposition pour toute question ou demande de modification.
       
       Meilleures salutations
       {{firstname}}
@@ -284,7 +284,7 @@ matches:
       Je viens de vous envoyer le contrat de location (voir e-mail d'e-Signature). 
       Merci de nous renvoyer le contrat avant 14h00 afin que nous puissions envoyer la marchandise à temps.
       
-      S'il y a des ambiguïtés ou des modifications à ce sujet, je serai ravi*e de vous aider.
+      Je suis à votre disposition pour toute question ou demande de modification.
       
       Meilleures salutations 
       {{firstname}}
@@ -305,7 +305,7 @@ matches:
       Bonjour [[Name]]  
       
       Je voulais vous demander si vous aviez déjà pu consulter l'offre.
-      S'il y a des incertitudes ou des demandes de modification, je serai ravi*e de vous aider.
+      Je suis à votre disposition pour toute question ou demande de modification.
       
       Meilleures salutations
       {{firstname}}
@@ -329,7 +329,7 @@ matches:
       Je voulais vous demander s'il y avait encore de l'intérêt pour notre offre.
       Dans le cas contraire, l'offre perdra prochainement sa validité. 
       
-      S'il y a des ambiguïtés ou des demandes de modification à ce sujet, je serai ravi*e de vous aider.
+      Je suis à votre disposition pour toute question ou demande de modification.
       
       Meilleures salutations
       {{firstname}}
@@ -349,7 +349,7 @@ matches:
       Bonjour [[Name]]
       
       Nous vous remercions pour l'information concernant l'annulation.
-      Nous serons ravi*e*s de vous aider une autre fois.
+      Nous serons ravis de vous aider une autre fois.
       
       Meilleures salutations
       {{firstname}}
@@ -369,7 +369,7 @@ matches:
       Bonjour [[Name]]  
       
       Comme nous n'avons pas reçu de réponse, nous avons annulé la demande.
-      Nous serons ravi*e*s de vous aider une autre fois.
+      Nous serons ravis de vous aider une autre fois.
       
       Meilleures salutations
       {{firstname}}
