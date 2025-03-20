@@ -166,7 +166,7 @@ matches:
     replace: "Pour la confirmation de l'offre, j'ai besoin de votre adresse et de votre numéro de téléphone portable."
     
   - trigger: ",ofer"
-    replace: "Damit ich dir eine Offerte zustellen kann, benötige ich noch Deinen Namen, Adresse, Natelnummer und E-Mail Adresse."
+    replace: "Damit ich Dir eine Offerte zustellen kann, benötige ich noch Deinen Namen, Adresse, Natelnummer und E-Mail Adresse."
         
   - trigger: ",fofer"
     replace: "Pour que je puisse vous envoyer une offre, j'ai besoin de votre nom, adresse, numéro de téléphone portable et adresse e-mail."
@@ -190,10 +190,10 @@ matches:
     replace: "L'entrepôt de Bâle est ouvert le mercredi de 18h00 à 19h30."  
     
   - trigger: ",lagbe"
-    replace: "Das Lager Bern hat jeweils am Mittwoch von 17:00-19:00 Uhr geöffnet. Falls Dir die Zeiten nicht passen, haben wir in Bern auch ein Pickup Lager (ohne Betreuung), bei welchem Du jederzeit dein Equipment abholen und returnieren kannst. Bitte lass mich es wissen, falls Du lieber auf Pickup wechseln möchtest."
+    replace: "Das Lager Bern hat jeweils am Mittwoch von 18:30-20:00 Uhr geöffnet. Falls Dir die Zeiten nicht passen, haben wir in Bern auch ein Pickup Lager (ohne Betreuung), bei welchem Du jederzeit dein Equipment abholen und returnieren kannst. Bitte lass mich es wissen, falls Du lieber auf Pickup wechseln möchtest."
     
   - trigger: ",flagbe"
-    replace: "L'entrepôt de Berne est ouvert le mercredi de 17h00 à 19h00. Si ces horaires ne vous conviennent pas, nous avons également un entrepôt pickup (sans personnel d'accueil) à Berne, où vous pouvez venir chercher votre équipement et le retourner à tout moment. Merci de me prévenir si vous préférez passer au pickup."
+    replace: "L'entrepôt de Berne est ouvert le mercredi de 18h30 à 20h00. Si ces horaires ne vous conviennent pas, nous avons également un entrepôt pickup (sans personnel d'accueil) à Berne, où vous pouvez venir chercher votre équipement et le retourner à tout moment. Merci de me prévenir si vous préférez passer au pickup."
 
   - trigger: ",ok"
     form: |
