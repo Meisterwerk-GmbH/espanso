@@ -5,11 +5,10 @@ matches:
 
   - trigger: ",specs"
     form: |
-      ### {{Titel hier einfügen}}
+      ### [[Titel hier einfügen]]
 
-      {{Beschreibung hier einfügen}}
+      [[Beschreibung hier einfügen]]
 
-      __**Technische Daten**__  
       [SpecificationsStart]
 
       • 
