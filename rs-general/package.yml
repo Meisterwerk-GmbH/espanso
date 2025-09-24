@@ -5,7 +5,7 @@ matches:
 
   - trigger: ",specs"
     form: |
-      [[###Titel hier einfügen]]
+      [[Titel hier einfügen]]
 
 
       [SpecificationsStart]
