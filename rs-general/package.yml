@@ -1,15 +1,20 @@
 matches:
-
-  - trigger: ",rs"
-    replace: "rentshop®"
-
-  - trigger: ",specs"
+  - trigger: ":specs"
     form: |
-      [[Titel hier einfügen]]
+      ### [[title]]
 
+      [[beschreibung]]
 
+      __**Technische Daten**__  
       [SpecificationsStart]
 
       • 
 
       [SpecificationsEnd]
+    vars:
+      - name: title
+        type: text
+        default: "Titel hier einfügen"
+      - name: beschreibung
+        type: text
+        default: "Beschreibung hier einfügen"
