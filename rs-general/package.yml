@@ -3,7 +3,6 @@ matches:
   - trigger: ",rs"
     replace: "rentshop®"
 
-matches:
   - trigger: ",specs"
     replace: |
       ### {{Titel hier einfügen}}
