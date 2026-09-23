@@ -315,7 +315,7 @@ matches:
       Freundliche Grüsse
       {{firstname}}
 
-   - trigger: ",fdrina"
+  - trigger: ",fdrina"
     form: |
       Bonjour [[Name]] 
       
