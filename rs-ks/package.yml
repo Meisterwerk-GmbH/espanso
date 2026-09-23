@@ -26,6 +26,15 @@ matches:
 
       Freundliche Grüsse
       {{firstname}}
+
+  - trigger: ",miro"
+    form: |
+      Hallo Miro [[Name]] 
+      
+      Wir haben folgende E-Bike Anfrage erhalten.
+
+      Freundliche Grüsse
+      {{firstname}}
       
   - trigger: ",doppel"
     form: |
@@ -57,6 +66,7 @@ matches:
       Zürcher Kantonalbank
       IBAN: CH35 0070 0110 0049 6385 9
       SWIFT (BIC): ZKBKCHZZ80A
+      QR-IBAN (bei Rechnungen): CH57 3070 0110 0049 6385 9
 
   - trigger: ",fiban"
     form: |
@@ -68,12 +78,14 @@ matches:
       Zürcher Kantonalbank
       IBAN: CH35 0070 0110 0049 6385 9
       SWIFT (BIC): ZKBKCHZZ80A
+      QR-IBAN: CH57 3070 0110 0049 6385 9
+
 
   - trigger: ",anvo"
     form: |
       Guten Tag [[Name]] 
 
-      Da die Vorkassenrechnung bis heute nicht beglichen wurde, wird die Bestellung nun storniert.
+      Da die Vorkassenrechnung bis heute nicht beglichen wurde, wird die Bestellung storniert.
       Wir hoffen ein anderes Mal behilflich sein zu können.
 
       Bei Fragen stehe ich gerne zur Verfügung.
@@ -275,6 +287,7 @@ matches:
       
       Freundliche Grüsse
       {{firstname}}
+
         
   - trigger: ",fdring"
     form: |
@@ -288,6 +301,32 @@ matches:
       
       Meilleures salutations 
       {{firstname}}
+
+  - trigger: ",drina"
+    form: |
+      Guten Tag [[Name]]  
+
+      Besten Dank für die Anfrage.
+      Ich habe soeben den Mietvertrag zugestellt (siehe E-Mail von e-Signature). 
+      Bitte unterschreibe den Vertrag, bevor Du das Material abholen kommst.
+      
+      Falls es diesbezüglich Unklarheiten oder Änderungswünsche gibt, helfe ich gerne weiter.
+      
+      Freundliche Grüsse
+      {{firstname}}
+
+   - trigger: ",fdrina"
+    form: |
+      Bonjour [[Name]] 
+      
+      Merci pour votre demande.
+      Je viens de vous envoyer le contrat de location (voir e-mail d'e-Signature). 
+      Merci de signer le contrat avant de venir récupérer le matériel.
+      
+      Je suis à votre disposition pour toute question ou demande de modification.
+      
+      Meilleures salutations 
+      {{firstname}}     
 
   - trigger: ",drafol"
     form: |
